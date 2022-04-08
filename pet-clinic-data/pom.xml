@@ -70,10 +70,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
-                </configuration>
+                <version>2.6.6</version>
                 <executions>
                     <execution>
                         <goals>
@@ -85,7 +82,5 @@
 
         </plugins>
     </build>
-
-
 
 </project>
